@@ -8,7 +8,7 @@ Here is an example of how you can initiate Khalti transaction:
 ...
 use Projovi\Facades\Khalti;
 
-class KhaltiController extends Controller {
+class PaymentController extends Controller {
     ...
     public function pay() {
         $return_url = "http://example.com/verify";
@@ -33,7 +33,7 @@ class KhaltiController extends Controller {
 You can install the package via composer:
 
 ```bash
-composer require Projovi/khalti
+composer require projovi/khalti
 ```
 
 The package will automatically register itself.
