@@ -1,0 +1,31 @@
+{
+    "name": "Projovi/khalti",
+    "description": "Php wrapper for khalti integration",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Neputer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Projovi Developers",
+            "email": "developers@projovi.co"
+        }
+    ],
+    "require": {
+        "php": "^7.4.0|^8.0"
+    },
+    "require-dev": {
+        "illuminate/console": "^7|^8|^9",
+        "illuminate/support": "^7|^8|^9"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Projovi\\Laravel\\KhaltiServiceProvider"
+            ]
+        }
+    }
+
+}
