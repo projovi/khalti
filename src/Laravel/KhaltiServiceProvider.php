@@ -3,7 +3,7 @@
 namespace Projovi\Laravel;
 
 use Illuminate\Support\ServiceProvider;
-use Neputer\Khalti;
+use Projovi\Khalti;
 
 final class KhaltiServiceProvider extends ServiceProvider {
 
